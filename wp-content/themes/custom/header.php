@@ -46,28 +46,29 @@
 					<svg class="header_nav_menu_icon"
 						width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#FFF" stroke="#2C2830" stroke-width="1.5" d="M.75.75h30.5v30.5H.75z"/><g fill="#2C2830"><path d="M8 10h16v1.5H8zM8 15h16v1.5H8zM8 20h16v1.5H8z"/></g></g></svg>
 					<ul 
-						class="header_nav_ul">
+						class="ul header_nav_ul">
 
-						<li class="header_nav_list">
-							<a href="header_nav_link">
+						<li class="list header_nav_list">
+							<a href="link header_nav_link">
 								HOW WE WORK
 							</a>
 						</li>
-						<li class="header_nav_list">
-							<a href="header_nav_link">
+						<li class="list header_nav_list">
+							<a href="link header_nav_link">
 								BLOG
 							</a>
 						</li>
-						<li class="header_nav_list">
-							<a href="header_nav_link">
+						<li class="list header_nav_list">
+							<a href="link header_nav_link">
 								ACCOUNT
 							</a>
 						</li>
-						<li class="header_nav_list">
-							<a href="header_nav_button">
+
+						<a href="link header_nav_btn_link">
+							<button class="header_nav_btn">
 								View Plans
-							</a>
-						</li>
+							</button>
+						</a>
 						
 					</ul>
 				</div>
