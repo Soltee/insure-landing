@@ -7,6 +7,7 @@ function insure_init() {
 	wp_enqueue_style( 'insure-style', get_stylesheet_uri(), array(), $theme_version );
 	wp_enqueue_style( 'insure-normalize', get_template_directory_uri() . '/assets/css/normalize.css', null, $theme_version );
 	wp_enqueue_style( 'insure-app', get_template_directory_uri() . '/assets/css/app.css', array('insure-normalize'), $theme_version );
+	wp_enqueue_style( 'insure-app-sm', get_template_directory_uri() . '/assets/css/sm.css', array('insure-normalize', 'insure-app'), $theme_version );
 
 	//Scripts
 	wp_enqueue_script( 'insure-js', get_template_directory_uri() . '/assets/js/app.js', array(), $theme_version, true );

@@ -22,7 +22,9 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-
+.nav_hover_wrapper{
+  display: none;
+}
 .header_nav_menu_icon{
   display:  none;
 }
@@ -57,7 +59,7 @@ header{
   background-color: #2b282f;
   border:2px solid #2b282f;
 }
-
+.pattern_nav{display: none;}
 
 
 /** Hero Section **/
@@ -88,6 +90,12 @@ header{
   z-index: 2;
   width: 400px;
 }
+
+.hero_image_small{
+  display: none;
+  visibility: hidden;
+}
+
 
 .hero_wrapper:before{
   content: '';
@@ -230,7 +238,6 @@ header{
     margin: 2rem 0 0 0;
     opacity: 1;
 }
-
 .process_one_words, .process_two_words, .process_three_words{
   margin: 1rem 0 0 0;
   color:#2b282f;
@@ -238,6 +245,8 @@ header{
   opacity: 0.9;
   font-size: 17px;
 }
+
+
 
 /** Find MOre **/
 .more_wrapper{

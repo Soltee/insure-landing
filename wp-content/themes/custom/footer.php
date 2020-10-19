@@ -47,7 +47,7 @@
 				</div>
 				<div class="footer_ul_wrapper">
 					<h3 class="footer_ul_header">HELP ME</h3>
-					<ul class="footer_ul footer_ul_one">
+					<ul class="footer_ul footer_ul_two">
 						<li class="list footer_list">
 							<a href="" class="link footer_link">FAQ</a>
 						</li>
@@ -64,7 +64,7 @@
 				</div>
 				<div class="footer_ul_wrapper">
 					<h3 class="footer_ul_header">CONTACT</h3>
-					<ul class="footer_ul footer_ul_one">
+					<ul class="footer_ul footer_ul_three">
 						<li class="list footer_list">
 							<a href="" class="link footer_link">SALES</a>
 						</li>
@@ -78,7 +78,7 @@
 				</div>
 				<div class="footer_ul_wrapper">
 					<h3 class="footer_ul_header">OTHERS</h3>
-					<ul class="footer_ul footer_ul_one">
+					<ul class="footer_ul footer_ul_four">
 						<li class="list footer_list">
 							<a href="" class="link footer_link">CAREERS</a>
 						</li>

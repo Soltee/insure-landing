@@ -43,8 +43,8 @@
 				</div>
 
 				<div class="header_nav_wrapper">
-					<svg class="header_nav_menu_icon"
-						width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#FFF" stroke="#2C2830" stroke-width="1.5" d="M.75.75h30.5v30.5H.75z"/><g fill="#2C2830"><path d="M8 10h16v1.5H8zM8 15h16v1.5H8zM8 20h16v1.5H8z"/></g></g></svg>
+					<svg class="header_nav_menu_icon open"
+						><g fill="none" fill-rule="evenodd"><path fill="#FFF" stroke="#2C2830" stroke-width="1.5" d="M.75.75h30.5v30.5H.75z"/><g fill="#2C2830"><path d="M8 10h16v1.5H8zM8 15h16v1.5H8zM8 20h16v1.5H8z"/></g></g></svg>
 					<ul 
 						class="ul header_nav_ul">
 
@@ -71,7 +71,60 @@
 						</a>
 						
 					</ul>
+
 				</div>
+			</div>
+
+			<!-- Mobile NAV-->
+			<div class="nav_hover_wrapper">
+				<div class="nav_top">
+					
+					<div class="header_logo_div">
+						<a 
+							class="anchor_link"
+							href="<?php echo site_url('/'); ?>">
+								<img src="<?php echo get_template_directory_uri().'/assets/images/logo.svg';  ?>" class="logo">
+							</a>
+					</div>
+
+					<svg class="header_nav_menu_icon close"><g fill="none" fill-rule="evenodd"><path fill="#FFF" stroke="#2C2830" stroke-width="1.5" d="M.75.75h30.5v30.5H.75z"/><g fill="#2C2830"><path d="M10.873 9.563l11.314 11.314-1.06 1.06L9.813 10.623z"/><path d="M9.813 20.877L21.127 9.563l1.06 1.06-11.314 11.314z"/></g></g></svg>
+
+				</div>
+
+				<div class="nav_hover_header_nav_ul_wrapper">
+						
+					<ul 
+						class="ul nav_hover_header_nav_ul">
+
+						<li class="list header_nav_list">
+							<a href="link header_nav_link">
+								HOW WE WORK
+							</a>
+						</li>
+						<li class="list header_nav_list">
+							<a href="link header_nav_link">
+								BLOG
+							</a>
+						</li>
+						<li class="list header_nav_list">
+							<a href="link header_nav_link">
+								ACCOUNT
+							</a>
+						</li>
+
+						<a href="link header_nav_btn_link">
+							<button class="header_nav_btn">
+								View Plans
+							</button>
+						</a>
+					</ul>
+
+					
+					<!-- Background Mobile Pattern -->
+					<img src="<?php echo get_template_directory_uri().'/assets/images/bg-pattern-mobile-nav.svg';  ?>" class="nav_pattern">
+					
+				</div>
+
 			</div>
 		</header>
 
