@@ -1,5 +1,5 @@
 
 
 # Screenshot
-![](https://raw.githubusercontent.com/soltee/insure-landing/master/wp-content/themes/custom/assets/images/desktop.png)
-![](https://raw.githubusercontent.com/soltee/insure-landing/master/wp-content/themes/custom/assets/images/mobile.png)
+![](https://github.com/Soltee/insure-landing/blob/main/wp-content/themes/custom/assets/images/desktop.png)
+![](https://github.com/Soltee/insure-landing/blob/main/wp-content/themes/custom/assets/images/mobile.png)
