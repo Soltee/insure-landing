@@ -6,6 +6,7 @@
     padding: 0;
     color:#fff;
     line-height: 5rem;
+    font-family: 'DM Serif Display', serif;
 
   }
 
@@ -196,6 +197,8 @@
     padding: 0;
     color:#fff;
     line-height: 3rem;
+    font-family: 'DM Serif Display', serif;
+
   }
 
   .hero_second_title{
@@ -260,6 +263,8 @@
     text-align: center;
     font-weight: bold;
     font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+
   }
 
   .process_content{
@@ -324,6 +329,8 @@
     line-height: 2.4rem;
     color:#fff;
     text-align: center;
+    font-family: 'DM Serif Display', serif;
+
   }
 
   .more__work_btn{

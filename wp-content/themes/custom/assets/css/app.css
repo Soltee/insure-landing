@@ -2,6 +2,8 @@
 /*.list{
 
 }*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 .ul{
   margin: 0;
@@ -158,7 +160,7 @@ header{
   padding: 0;
   color:#fff;
   line-height: 5rem;
-
+  font-family: 'DM Serif Display', serif;
 }
 
 
@@ -239,6 +241,7 @@ header{
   margin: 0;
   padding: 0;
   color:#2b282f;
+  font-family: 'DM Serif Display', serif;
 }
 
 
@@ -254,6 +257,8 @@ header{
     margin: 2rem 0 0 0;
     opacity: 1;
     color:#2b282f;
+    font-family: 'DM Serif Display', serif;
+
 }
 .process_one_words, .process_two_words, .process_three_words{
   margin: 1rem 0 0 0;
@@ -301,6 +306,7 @@ header{
   padding: 0;
   color:#fff;
   line-height: 5rem;
+    font-family: 'DM Serif Display', serif;
 
 }
 
